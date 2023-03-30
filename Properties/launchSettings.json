@@ -1,0 +1,32 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:60965",
+      "sslPort": 44345
+    }
+  },
+  "profiles": {
+    "CapstoneProject": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7129;http://localhost:5095",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VaultConnectionStringValue": "https://capstoneprojectvault.vault.azure.net/",
+        "AZURE_USERNAME": "sullnich@shernet.sheridancollege.ca"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VaultConnectionStringValue": "https://capstoneprojectvault.vault.azure.net/",
+        "AZURE_USERNAME": "sullnich@shernet.sheridancollege.ca"
+      }
+    }
+  }
+}
